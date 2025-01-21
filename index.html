@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="jquery.countdownTimer.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="countdowntimer"><span id="future_date"><span></div>
+   
+    <script src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.countdownTimer.js"></script>
+
+    <script>
+      $(function(){
+        $("#future_date").countdowntimer({
+          hours : 3,
+		      minutes : 10,
+          size : "lg",
+          labelsFormat: true,
+        });
+      });
+  </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
